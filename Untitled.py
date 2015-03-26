@@ -1,3 +1,9 @@
+arquivo = open("palavras.csv", "r+")
+leitura=arquivo.read(1000)
+lista = leitura.split(',')
+import random
+palavra = random.choice(lista)
+
 import turtle
 window = turtle.Screen()
 window.bgcolor("orange")
@@ -16,7 +22,7 @@ tartaruga.goto(-140, -150)
 tartaruga.goto(-140, 100)
 tartaruga.goto(-40, 100)
 
-def cabeça:
+def cabeca:
     tartaruga.goto(-40, 60)  
     tartaruga.goto(-20, 60)
     tartaruga.goto(-20, 20)
@@ -30,7 +36,7 @@ def corpo
     tartaruga.pendown()
     tartaruga.goto(-40, -80)
     
-def braçoesquerdo
+def bracoesquerdo
     tartaruga.penup()
     tartaruga.goto(-40, 0)
     tartaruga.pendown()
